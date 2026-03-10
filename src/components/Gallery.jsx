@@ -14,8 +14,6 @@ const Gallery = () => {
   const [totalImages, setTotalImages] = useState(0);
   const [searchQuery, setSearchQuery] = useState('');
   const [showSearch, setShowSearch] = useState(false);
-
-  // Direct API key (in a real app, you'd want to move this to a config file)
   const UNSPLASH_ACCESS_KEY = 'nFSz56fwt7Gk87iifIME1T4E0RLpRoQt7izUXFGK0pg';
 
   const categories = [
